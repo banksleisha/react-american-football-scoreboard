@@ -17,6 +17,14 @@ function App() {
     setHomeScore (homeScore + 3);
   }
 
+  const awayTD = () => {
+    setAwayScore (awayScore + 6);
+  }
+
+  const awayFieldGoal = ()=> {
+    setAwayScore (awayScore + 3);
+  }
+
   return (
     <div className="container">
       <section className="scoreboard">
